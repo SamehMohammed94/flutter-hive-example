@@ -13,7 +13,7 @@ class HomeView extends StatelessWidget {
           "Hive (Family App)",
           style: TextStyle(color: Colors.black87),
         ),
-        centerTitle: true, // for cernter Master
+        centerTitle: true, // local storage
       ),
       body: FamilyListView(),
       floatingActionButton: FloatingActionButton.extended(
